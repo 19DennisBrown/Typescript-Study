@@ -1,0 +1,7 @@
+
+TYPES:{
+  string[]
+  readonly string[]
+}
+
+const names: string[] = [];

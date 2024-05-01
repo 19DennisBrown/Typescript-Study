@@ -1,0 +1,21 @@
+
+A TUPLE is a typed array with a pre-defined length and types for each index.
+
+// define our tuple
+let ourTuple: [number, boolean, string];
+
+// initialize correctly
+ourTuple = [5, false, 'Coding God was here'];
+
+//Readonly Tuples.
+const ourReadonlyTuple: readonly [number, boolean, string] = [5, true, 'The Real Coding Dev'];
+
+//Named Tuples
+Named tuples allow us to provide context for our values at each index.
+
+Example
+const graph: [x: number, y: number] = [55.2, 41.3];
+
+//Destructuring Tuples
+const graph: [number, number] = [55.2, 41.3];
+const [x, y] = graph;

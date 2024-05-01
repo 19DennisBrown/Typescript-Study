@@ -1,0 +1,11 @@
+
+
+TYPES in typescript:
+{Booloean, String, Number(float, integer), BigInt(large negative and positive), Symbol(For creating globall unique identifier)}
+{any, unknown, never, undefined, null, }
+
+
+TYPE Assignment
+
+a> Explicit {writing out the type: let firstName: string = "Dylan";}
+b> Implicit  {let firstName = "Dylan";}

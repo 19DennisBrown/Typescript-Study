@@ -1,0 +1,11 @@
+
+Install command : npm install typescript --save-dev
+Run command : npx tsc
+Update command : npm install -g npm@10.7.0
+configure command : npx tsc --init
+tsconfig.json = {
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "./build"
+  }
+}
